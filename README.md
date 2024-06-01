@@ -87,45 +87,6 @@ Exception Handling
 The application includes custom exception handling for various error scenarios, such as appointment not found, 
 patient not found, and general errors.The exceptions return appropriate HTTP status codes and error messages.
 
-`Folder Structure
------------------
-.
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── healthcare
-│   │   │           └── appointment
-│   │   │               └── Healthcare_Appointment
-│   │   │                   ├── controller
-│   │   │                   │   ├── AppointmentController.java
-│   │   │                   │   └── PatientController.java
-│   │   │                   ├── exception
-│   │   │                   │   ├── AppointmentNotFoundException.java
-│   │   │                   │   ├── AppointmentServiceException.java
-│   │   │                   │   └── GlobalExceptionHandler.java
-│   │   │                   ├── model
-│   │   │                   │   ├── Appointment.java
-│   │   │                   │   └── Patient.java
-│   │   │                   ├── repository
-│   │   │                   │   ├── AppointmentRepository.java
-│   │   │                   │   └── PatientRepository.java
-│   │   │                   └── service
-│   │   │                       ├── AppointmentService.java
-│   │   │                       └── PatientService.java
-│   │   └── resources
-│   │       └── application.properties
-│   └── test
-│       └── java
-│           └── com
-│               └── healthcare
-│                   └── appointment
-│                       └── Healthcare_Appointment
-│                           └── controller
-│                               └── AppointmentControllerTests.java
-│                               └── PatientControllerTests.java
-└── README.md`
-
 Contact
 ---------
 If you have any questions or issues, please contact [aravindbala1995@gmail.com]
