@@ -22,7 +22,7 @@ The application can use a legacy database.
 
 ### Clone the repository
 
-```bash
+bash
 git clone https://github.com/yourusername/healthcare-appointment-system.git
 cd healthcare-appointment-system
 
