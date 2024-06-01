@@ -87,7 +87,7 @@ Exception Handling
 The application includes custom exception handling for various error scenarios, such as appointment not found, 
 patient not found, and general errors.The exceptions return appropriate HTTP status codes and error messages.
 
-Folder Structure
+`Folder Structure
 -----------------
 .
 ├── src
@@ -124,7 +124,7 @@ Folder Structure
 │                           └── controller
 │                               └── AppointmentControllerTests.java
 │                               └── PatientControllerTests.java
-└── README.md
+└── README.md`
 
 Contact
 ---------
