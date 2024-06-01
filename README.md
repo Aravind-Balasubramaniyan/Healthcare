@@ -23,8 +23,8 @@ The application can use a legacy database.
 ### Clone the repository
 
 bash
-git clone https://github.com/yourusername/healthcare-appointment-system.git
-cd healthcare-appointment-system
+git clone https://github.com/Aravind-Balasubramaniyan/Healthcare/tree/main/Healthcare_Appointment.git
+cd Healthcare_Appointment
 
 Build the project
 ------------------
